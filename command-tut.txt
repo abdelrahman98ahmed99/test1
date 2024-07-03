@@ -1,3 +1,5 @@
+git config --global user.name "Abdo"
+git config user.email "Abdo@gmail.com"
 cd d:
 cd git-test
 ls
