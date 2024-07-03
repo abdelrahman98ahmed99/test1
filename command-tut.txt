@@ -18,3 +18,4 @@ git status
 git commit -m "delete-abdo.py"
 git branch editor1
 git checkout editor1
+git merge editor1
