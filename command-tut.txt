@@ -1,0 +1,18 @@
+cd d:
+cd git-test
+ls
+git init
+touch abdo.py
+touch readme.txt
+git status
+git add .
+git status
+git commit -m "first-edit"
+git status
+git add readme.txt
+git commit -m "change-readme"
+git rm --cached abdo.py
+git status
+git commit -m "delete-abdo.py"
+git branch editor1
+git checkout editor1
